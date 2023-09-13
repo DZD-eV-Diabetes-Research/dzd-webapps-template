@@ -16,8 +16,8 @@ UI Examples
 - Query and Result UI
 - Modal UI Example
 - Loading Indicator
-- Example HTTP Request (PubMed results for given Gene in Humans)
-- UI State management (hide result, show loading indicator)
+- Example HTTP Request (Show all PubMed results for given Gene in Humans MiceMen Backend)
+- UI State management (hide result, show loading indicator, ect,)
 
 Other
 
@@ -35,6 +35,8 @@ app/                  All frontend code is in this folder for easy dockerization
         Footer.vue    Logos and Link to Imprint
         Header.vue    App title and description
         Layout.vue    Parent layout component, also contains About and How-To text
+      Modal.vue       Modal UI component
+      Query.vue       Query and Result component - contains most of the app code
     lib/              Shared code
       api.js          Functions for all HTTP requests to backend
       config.js       Shared app configuration, e.g. Server URLs
