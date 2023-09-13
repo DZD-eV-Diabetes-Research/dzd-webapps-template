@@ -24,6 +24,10 @@ Other
 - Example HTTP request
 - Gitlab and Docker config
 
+## UI Screenshot
+
+![App Screenshot](screenshot.png)
+
 ## Files and folders
 
 ```
